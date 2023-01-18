@@ -1,0 +1,301 @@
+body{ 
+    
+    background: #1d1d20;
+    margin: 0;
+    padding: 0;  
+   
+
+    
+}
+
+a{
+    text-decoration: none;
+    all: unset;
+    display: block;
+    width: fit-content;
+}
+h3{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 20px;
+
+    
+}
+.git{
+    color: #d1d1d1;
+    overflow: hidden;
+
+}
+.portfolio{
+
+    margin:0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-bottom: 2px  solid ;
+    border-image:linear-gradient(to right, BLUE,orange) 1 ;
+
+    
+}
+button{
+    all: unset;
+    display: inline;
+}
+
+.links{
+    width: 200px;
+    display: flex; 
+    justify-content: flex-end;
+    gap: 10%;
+    
+}
+.button{
+    padding: 0em 0.1em;
+    font-weight: bolder;
+    color:black;
+    font-size: 1rem;  
+    border: none;
+    background: #d1d1d1;
+    border-radius:5px;
+    font-family: 'Montserrat',sans-serif; 
+}
+.inner-container{
+ padding: 0 50px;   
+
+}
+.colornfont{
+    color: #d1d1d1;
+    font-family: 'Montserrat',sans-serif; 
+}
+
+.intro{
+    padding-left: 1.5em;
+    border-left:2PX solid ;
+    border-image:linear-gradient(to bottom, BLUE,orange) 1 ;
+    
+}
+.content-container{  
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 600;
+    padding-left: 1.5em;
+    border-left:2PX solid ;
+    border-image:linear-gradient(to bottom, BLUE,orange) 1 ;
+    margin-top:1.5em;
+
+    
+}
+.topic{
+    margin-top: 3.5em;
+    min-height: 300px;
+    max-width: 500px;
+    max-height: 300px;
+    
+  
+    
+}
+
+
+.topic-tittle{
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+.bottomlink{
+    padding-bottom:2px;
+    border-bottom:2px solid ;
+    border-image:linear-gradient(to right, BLUE,orange) 1 ;
+}
+.link-wrapper{
+    display: flex;
+    justify-content: start;
+    padding-top:2em ;
+    
+    min-width: 100%;
+    
+    gap: 20%;
+}
+   
+h1{
+    margin: 0;
+    font-size: 12vw;
+    font-weight: 600;
+}
+p{
+    margin: 0;
+    padding: 0; 
+}
+
+
+.footer{
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+}
+
+footer{
+    width: 100%;
+    overflow: hidden;
+    background-color:none;
+    color: #d1d1d1;
+    text-align: center;
+    padding-top: 2em;
+   
+    
+}
+.welcome{
+    margin-top: 50px;
+}
+ 
+
+.project{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.project-container
+{
+    padding-top: 50px;
+}
+.about{
+    line-height: 1.6em;
+    font-weight: 600;
+    word-spacing: 0.2em;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 0.9em;
+    
+}
+li{
+    font-weight:900;
+    padding-top: 1.5em;
+    padding-bottom:0.2em;
+    list-style: none;
+    border-bottom:2px solid ;
+    border-image:linear-gradient(to right, BLUE,orange) 1 ;
+    width: fit-content;
+
+}
+@media(min-width:1024px){
+    .about{
+        max-width: 80%;
+    }
+    .topic{
+        min-width: none;
+        min-height: none;
+    }
+    .flex-welpro{
+    
+        display: flex;
+        margin-top: 100px;
+        gap: 0.1em;
+        margin-left: 150px;
+
+    }
+    .welcome-wrapper{
+       flex-basis: 50%;
+    }
+    h1{
+        margin: 0;
+        font-weight: 500;
+        font-size: 6vw;
+    }
+    
+    .project-container{
+  
+            flex-basis: 50%;
+            padding-top:10px;
+    }
+    footer{
+        
+        font-weight: lighter;
+        position: fixed;
+        bottom: 0;
+    }
+    .welcome{
+        margin-top: 0px;
+    }
+    .content-container{
+        margin-top:1.5em;
+        width: 60%;
+       
+    }
+    .link-wrapper{
+        position: unset;
+    }
+    
+    .topic{
+        position: unset;
+        margin-top: 1em;
+    }
+   
+    .flex-welpro{
+        
+        margin-top: 150px;
+        
+    }
+    
+}
+
+@media(min-width:900px)and(max-width:1023px){
+    .about{
+        max-width: 80%;
+    }
+    .flex-welpro{
+        display: flex;
+        margin-top: 100px;
+        gap: 3em;
+        margin-left: 150px;
+
+    }
+    .welcome-wrapper{
+        flex-basis: 50%;
+    }
+    h1{
+        margin: 0;
+        font-weight: 500;
+        font-size: 6vw;
+    }
+    
+    .project-container{
+            flex-basis: 50%;
+            padding-top:10px;
+    }
+    footer{
+        
+        font-weight: lighter;
+        position: fixed;
+        bottom: 0;
+    }
+    .welcome{
+        margin-top: 0px;
+    }
+    .content-container{
+        margin-top:1.5em;
+        width: 60%;
+       
+    }
+    .link-wrapper{
+        position: unset;
+    }
+    
+    .topic{
+        position: unset;
+        margin-top: 1em;
+    }
+   
+
+}
+a:hover{
+    
+    cursor: pointer; 
+    
+}
+li:hover{
+    cursor: pointer;
+}
+.portfolio:hover{
+    cursor: pointer;
+}
