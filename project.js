@@ -17,7 +17,7 @@ const project=[
         name:"Unit-Converter",
         description:"This little chrome extension makes unit conversion much easier.Just type any value and it will convert the value for length volume and weight.",
         id:"3",
-        link:"https://prabhat747.github.io/Password-Generator/"
+        link:" https://prabhat747.github.io/Unit-Converter/"
 
     },
     {
@@ -25,6 +25,14 @@ const project=[
         description:"Ever had this feeling that you should have a strong password than you use currently.Well not to worry this app can suggest you a password of 15 letters and is combination of alphabets,numbers and special characters",
         id:"4",
         link:"https://prabhat747.github.io/Password-Generator/",
+    },
+    {
+        name:"Movie WatchList Maker",
+        description:`This app allows you to search movies and you
+         can create your own movie watchList and save it in your device.`,
+        id:"5",
+        link:" https://prabhat747.github.io/Movie-WatchList/" ,
+
     },
 
 ]
